@@ -38,7 +38,7 @@ const LandingList = () => {
         </div>
         <figure className={classes.right}>
           <Image
-            src="/images/hero.png"
+            src="/images/image3.jpg"
             alt="Header Image"
             width={700}
             height={700}

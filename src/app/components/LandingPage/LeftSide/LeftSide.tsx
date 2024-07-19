@@ -35,16 +35,16 @@ const LeftSide = () => {
         </div>
         <figure className={classes.right}>
           <Image
-            src="/images/patient.png"
+            src="/images/image2.jpg"
             width={150}
-            height={400}
+            height={300}
             alt="carefinder"
             style={{ marginBottom: "3rem" }}
           />{" "}
           <Image
-            src="/images/doctor.png"
+            src="/images/image4.jpg"
             width={150}
-            height={400}
+            height={300}
             alt="carefinder"
             style={{ marginTop: "3rem" }}
           />

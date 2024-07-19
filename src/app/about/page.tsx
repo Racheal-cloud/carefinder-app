@@ -4,15 +4,15 @@ const About: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-white">
       
-        <Heading as="h1" size="2xl">About Carefinder</Heading>
+        <Heading as="h1" size="2xl">About CarefinderPro</Heading>
         
         <Text fontSize="lg">
-          Carefinder is a comprehensive platform designed to help users find, export, and share information about hospitals within their region in Nigeria. Our mission is to make healthcare more accessible and transparent for everyone.
+          CarefinderPro is a platform designed to help users find, export, and share information about hospitals within their region in Nigeria. Our vision at CareFinder is to become the preeminent search engine for care homes. We go beyond simply narrowing down options based on the criteria provided. We pledge to build and use data analytics that have been underutilised in the sector, to serve a market that has been underfunded and largely ignored for decades. Our mission is to make the process of finding the ideal care home for loved ones as easy and stress-free as possible. We strive to provide the best, most accurate information and resources to help families make informed decisions about the care of their loved ones.
         </Text>
         
         <Heading as="h2" size="lg">Purpose</Heading>
         <Text fontSize="lg">
-          With the growing need for accessible healthcare information, Carefinder was created to address the challenge of finding reliable hospital information. Our platform aims to bridge the gap between healthcare providers and patients by providing accurate and up-to-date hospital data.
+        We understand that finding the right hospital can be a daunting and overwhelming task, which is why we have made it our priority to provide a comprehensive and user-friendly platform for our clients which allows you search for hospitals based on location, type of care, and amenities, making it easy for you to find the ideal match for your loved one.
         </Text>
         
         <Heading as="h2" size="lg">Features</Heading>

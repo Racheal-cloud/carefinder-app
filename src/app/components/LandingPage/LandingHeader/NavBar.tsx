@@ -1,54 +1,26 @@
-"use client";
-import React from "react";
-import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Button from "../../UI/Button";
-import NavLink from "../../UI/NavLink";
-import classes from "./LandingHeader.module.css";
 import Link from "next/link";
-// import logo from "../../../public/images/carefinderlogo.png";
-const NavBar: React.FC = () => {
-  const router = useRouter();
+
+export default function Header() {
   return (
-    <header className={classes.header} id="header">
-      <Link href="/" className="cursor-pointer">
-        {/* <Image
-          src={logo}
-          alt="Logo"
-          width={80}
-          height={80}
-          className="cursor-pointer"
-        /> */}
-      </Link>
-      <ul className={classes.ul}>
-        <li className={classes.li}>
-          <NavLink href={{ pathname: "/" }}>Home</NavLink>
-        </li>{" "}
-        <li className={classes.li}>
-          <NavLink href={{ pathname: "/about" }}>About</NavLink>
-        </li>
-      </ul>
-      <nav className={classes.nav}>
-        <Button
-          type="button"
-          className={classes.header__button}
-          onClick={() => {
-            router.push("/login");
-          }}
-        >
-          Login
-        </Button>
-        <Button
-          type="button"
-          className={classes.header__button}
-          onClick={() => {
-            router.push("/signup");
-          }}
-        >
-          Signup
-        </Button>
-      </nav>
-    </header>
+    <>
+      <header className="flex w-full h-[6rem] justify-between items-center px-[10%] bg-blue-300">
+        <Link href={"/"}>
+          <Image className="w-full h-full" src={"/carefinderlogo.png"} alt="logo" width={80} height={40} priority />
+        </Link>
+
+        <nav className="flex space-x-4">
+          <Link href={"/"}>Home</Link>
+          <Link href={"/upload"}>About</Link>
+          <Link href={"/favourites"}>Get Started</Link>
+          <Link href={"/contact"}>Contact</Link>
+        </nav>
+
+        <nav className="flex gap-6 items-center">
+          <Link href={"/login"}>Login</Link>
+          <Link href={"/sign-up"}>Sign Up</Link>
+        </nav>
+      </header>
+    </>
   );
-};
-export default NavBar;
+}

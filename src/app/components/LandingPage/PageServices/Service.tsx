@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Service.module.css";
+// import classes from "./Service.module.css";
 
 interface Props {
   icon: JSX.Element;

@@ -26,6 +26,9 @@ const NavBar: React.FC = () => {
         <li className={classes.li}>
           <NavLink href={{ pathname: "/about" }}>About</NavLink>
         </li>
+        <li className={classes.li}>
+          <NavLink href={{ pathname: "/contact" }}>Contact</NavLink>
+        </li>
       </ul>
       <nav className={classes.nav}>
         <Button

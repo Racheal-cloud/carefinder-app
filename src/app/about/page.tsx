@@ -2,7 +2,7 @@ import { Box, Heading, Text, List, ListItem, Link, VStack } from '@chakra-ui/rea
 
 const About: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-white">
+    <div className="flex flex-row items-center justify-center min-h-screen p-8 bg-white">
       
         <Heading as="h1" size="2xl">About CarefinderPro</Heading>
         

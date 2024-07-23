@@ -14,23 +14,30 @@
     justify-content: flex-end;
   }
   
+  .li {
+    list-style: none;
+    text-decoration: none;
+  }
+  
   .li a {
-
     font-size: 1.6rem;
     color: rgba(var(--secondary-color), 0.5);
     padding: 0.7rem 1.2rem;
     font-weight: 400;
     margin-left: 1rem;
     cursor: pointer;
-    border-bottom: 0.2rem solid transparent;
-    border-left: 0.2rem solid transparent;
+    /* border-bottom: 0.2rem solid transparent; */
+    /* border-left: 0.2rem solid transparent; */
     border-radius: 0.5rem;
     transition: all 0.3s;
+    ;
+  
   }
   .li a:hover {
-    color: #2563EB;
+    color: #ffffff;
     border-bottom: 0.2rem solid black;
     border-left: 0.2rem solid black;
+
   }
   
   .nav {
@@ -52,6 +59,7 @@
   
   .header__button:hover {
     background-color: #2563EB;
+    color: #ffffff;
   }
   
   .section {
